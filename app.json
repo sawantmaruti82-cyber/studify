@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "NotifyAPP",
-    "slug": "NotifyAPP",
+    "name": "Studify",
+    "slug": "studify",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "notifyapp",
+    "scheme": "studify",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -27,6 +27,7 @@
     },
     "plugins": [
       "expo-router",
+      "expo-notifications",
       [
         "expo-splash-screen",
         {
